@@ -28,13 +28,15 @@ body {
 .writing,
 h3 {
     font-size: 50px;
+    text-align: center;
 }
 
 .writing-p {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     display: inline-block;
     margin: 0 auto;
+    margin-top: 5px;
     position: relative;
     margin-bottom: 10px;
 }
@@ -193,4 +195,28 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:1200px) {
+    .overlay {
+        display: none;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .writing h3 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:726px) {
+    .writing h3 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:646px) {
+    .writing h3 {
+        font-size: 35px;
+    }
 }

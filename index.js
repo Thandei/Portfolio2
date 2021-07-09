@@ -109,3 +109,19 @@ document.querySelector(".fa-times-circle").addEventListener("click", ()=> {
    
 
 })
+
+document.querySelector(".fa-linkedin-square").addEventListener("click", ()=> {
+    window.open("https://www.linkedin.com/in/ufuk-yılmazlar-62a4781a3/");
+})
+document.querySelector(".fa-github-square").addEventListener("click", ()=> {
+    window.open("https://github.com/Thandei");
+})
+
+document.querySelector(".fa-facebook-square").addEventListener("click", ()=> {
+    window.open("https://www.facebook.com/profile.php?id=100021887420561");
+})
+document.querySelector(".fa-envelope-square").addEventListener("click", ()=> {
+    window.open("mailto:ufukyilmazlar@outlook.com");
+})
+
+
