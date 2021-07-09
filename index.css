@@ -194,12 +194,3 @@ i {
     justify-content: center;
     align-items: center;
 }
-
-
-/* responsive css */
-
-@media screen and (max-width: 465px) {
-    body {
-        background-color: red;
-    }
-}
