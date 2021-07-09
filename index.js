@@ -6,6 +6,13 @@
 document.querySelector(".writing-p").addEventListener("click", ()=> {
     document.querySelector(".writing").style.transform = "translate(-3000px,0)";
     document.querySelector(".writing").style.transition = "1s ease-in-out";
+    setTimeout(()=> {
+        
+        document.querySelector(".writing").style.display = "none";
+         
+    },500)
+
+
     document.querySelector(".symbols").style.opacity = "0";
     document.querySelector(".symbols").style.visibility = "hidden";
     document.querySelector(".back-icon").style.visibility = "visible";
@@ -30,9 +37,18 @@ document.querySelector(".writing-p").addEventListener("click", ()=> {
 });
 
 document.querySelector(".back-icon").addEventListener("click", ()=>{
+    document.querySelector(".writing").style.opacity = 0;
+         
+    setTimeout(()=> {
+        
+        
+        document.querySelector(".writing").style.opacity = 1;
+         
+    },600)
     document.querySelector(".writing").style.transform = "translate(0,0)";
  
     setTimeout(()=> {
+        document.querySelector(".writing").style.display = "flex";
         document.querySelector(".symbols").style.visibility = "visible";
         document.querySelector(".symbols").style.opacity = "1";
     },500)
@@ -76,5 +92,20 @@ document.querySelector(".fa-user-circle").addEventListener("mouseout", ()=> {
 
 document.querySelector(".fa-globe").addEventListener("mouseout", ()=> {
     document.querySelector(".hucev").style.width="0%";
+});
+
+document.querySelector(".WhoButton").addEventListener("click", ()=> {
+    document.querySelector(".second-content").style.opacity =0;
+    document.querySelector(".DownMe").style.height="100%";
+
 })
- 
+
+document.querySelector(".fa-times-circle").addEventListener("click", ()=> {
+    document.querySelector(".DownMe").style.height="0%";
+    setTimeout(()=> {
+        document.querySelector(".second-content").style.opacity =1;
+    },500)
+  
+   
+
+})
