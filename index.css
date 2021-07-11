@@ -189,6 +189,14 @@ i {
     transition: all 300ms ease;
 }
 
+.Downimage {
+    overflow-y: hidden;
+}
+
+.Downcontent {
+    overflow-y: hidden;
+}
+
 .DownContainer {
     display: flex;
     flex-direction: column;
