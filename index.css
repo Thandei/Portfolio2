@@ -13,7 +13,6 @@ body {
     user-select: none;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    overflow-y: hidden;
 }
 
 .writing {
@@ -200,23 +199,5 @@ i {
 @media screen and (max-width:1200px) {
     .overlay {
         display: none;
-    }
-}
-
-@media screen and (max-width:810px) {
-    .writing h3 {
-        font-size: 45px;
-    }
-}
-
-@media screen and (max-width:726px) {
-    .writing h3 {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width:646px) {
-    .writing h3 {
-        font-size: 35px;
     }
 }
