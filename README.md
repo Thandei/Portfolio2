@@ -1,1 +1,1 @@
-#https://thandei.github.io/Portfolio2.github.io/
+#https://thandei.github.io/Portfolios.github.io/
